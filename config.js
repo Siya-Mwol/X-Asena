@@ -16,7 +16,7 @@ module.exports = {
   SESSION_ID: process.env.SESSION_ID || "idvu3oj6_XASENA_w46_XASENA_nb8c",
   LANG: process.env.LANG || "EN",
   HANDLERS:
-    process.env.HANDLER === "false" || process.env.HANDLER === "null"
+    process.env.HANDLER === "true" || process.env.HANDLER === "null"
       ? "^"
       : "^[#]",
   RMBG_KEY: process.env.RMBG_KEY || false,
@@ -26,7 +26,7 @@ module.exports = {
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
   AUTHOR: process.env.AUTHOR || "X-electra",
-  SUDO: process.env.SUDO || "918113921898,916238316024",
+  SUDO: process.env.SUDO || "918113921898,916238316024,918891871875",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   OWNER_NAME: process.env.OWNER_NAME || "Neeraj-X0",
